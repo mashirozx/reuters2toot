@@ -1,8 +1,4 @@
-# bili2toot
-
-A simple script that transport dynamic from bilibili to Mastodon. Based on the Twitter RSS feed powered by [RSSHub](https://rsshub.app).
-
-一个将bilibili动态搬运到长毛象的脚本——基于[RSSHub](https://rsshub.app)生成的B站动态RSS。
+# reuters2toot
 
 ```
 pip3 install -r requirements.txt
@@ -24,5 +20,5 @@ nano /etc/crontab
 Recommand do job hourly:
 ```
 #m h dom mon dow user  command
-13 *    * * *   root    cd /bili2toot && python3 run.py
+13 *    * * *   root    cd /reuters2toot && python3 run.py
 ```
